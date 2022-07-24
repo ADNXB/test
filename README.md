@@ -18,3 +18,13 @@
 ![image](https://raw.githubusercontent.com/ADNXB/test/main/owasp_injection_13%20(1).png)
 #### As we can see, we successfully log in as administrator
 
+- ##  bypass authentication using Session ID prediction
+- ### definition of session id prediction
+#### The session prediction attack focuses on predicting session ID values that permit an attacker to bypass the authentication schema of an application. By analyzing and understanding the session ID generation process, an attacker can predict a valid session ID value and get access to the application
+
+- ## how to exploit it 
+![image](https://raw.githubusercontent.com/ADNXB/test/main/cookies.jpg)
+
+#### As we can see here in this web application the session id variable is represented by JSESSIONID and its value is "user01" , so if we try to change this value by user03 or admin we can access their account, we can find in other scenarios the cookies are encrypted by Known cipher We can decrypt it, change the value, encrypt it again, and send the request 
+
+
