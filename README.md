@@ -27,4 +27,21 @@
 
 #### As we can see here in this web application the session id variable is represented by JSESSIONID and its value is "user01" , so if we try to change this value by user03 or admin we can access their account, we can find in other scenarios the cookies are encrypted by Known cipher We can decrypt it, change the value, encrypt it again, and send the request 
 
+- ## bypass jwt token
+- ### difinition of jwt token
+ #### A JSON Web Token (JWT) is a JSON object that is defined in RFC 7519 as a safe way of transmitting information between two parties. Information in the JWT is digitally-signed, so that it can be verified and trusted 
+
+- ### how to bypass jwt token 
+right now we will talk just about one way to bypass jwt token and it is by using setting ```alg : none``` 
+
+![image](https://raw.githubusercontent.com/ADNXB/test/main/alg-none.jpg)
+
+#### When the server receives such form of token , as a result of “none” algorithm it does not perform the signature verification . Thus now the attacker could manipulate the value payload without any server side detection and get vertical or horizontal privilege escalation.
+
+- ## the end
+- 
+### i hope you guys enjoy my first article and I will be glad if you notice any mistakes I made and tell me.
+
+
+
 
