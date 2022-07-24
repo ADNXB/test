@@ -39,7 +39,6 @@ right now we will talk just about one way to bypass jwt token and it is by using
 #### When the server receives such form of token , as a result of “none” algorithm it does not perform the signature verification . Thus now the attacker could manipulate the value payload without any server side detection and get vertical or horizontal privilege escalation.
 
 - ## the end
-- 
 ### i hope you guys enjoy my first article and I will be glad if you notice any mistakes I made and tell me.
 
 
