@@ -16,7 +16,7 @@
 - ### WAF Bypass using domained local host
 - #### in this way we can use a domained local host that redirect us to 127.0.0.1 this domain is an exemple of a domained local host  localtest.me , 
 - ### WAF Bypass using long ip
-- #### we can convert the ip adress which is 127.0.0.1 to a Hexadecimal value , and the server will understand it like a 127.0.0.1 using this website https://www.smartconversion.com/unit_conversion/IP_Address_Converter.aspx
+- #### we can convert the ip adress which is 127.0.0.1 to a Hexadecimal value , and the server will understand it like a 127.0.0.1 , u can convert the ip using this website https://www.smartconversion.com/unit_conversion/IP_Address_Converter.aspx
 ![image](https://raw.githubusercontent.com/ADNXB/test/main/long.PNG)
 - ### Bypass using octal encoding 
 - Octal encoding is a way of representing characters in the base 8 format. Similar to how you would translate an address to the hex format, you translate an IP address to octal form by recalculating each section of the IP address. For example,
